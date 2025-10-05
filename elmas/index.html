@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مناسبات - خدمة تصميم وإرسال وإدارة الدعوات الإلكترونية</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>مناسبات</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#services">خدماتنا</a></li>
+                    <li><a href="#try-service">جرب الخدمة</a></li>
+                    <li><a href="#packages">الباقات</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                    <li><a href="#start-now" class="btn-primary">ابدأ الآن</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>صمم و أرسل دعواتك بطريقة<br><span class="highlight">عصرية و مميزة</span></h1>
+                <p class="hero-description">
+                    مع خاصية تأكيد الحضور و بطاقات الدخول بإسم و باركود خاص لكل ضيف، وإدارة كاملة لدعواتك. تنظيم و آمان مناسبتكم اولى اولوياتنا
+                </p>
+                <a href="#try-service" class="btn-primary btn-large">جرب الخدمة مجاناً</a>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <h3>دعوة إلكترونية</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">خدماتنا المميزة</h2>
+            <p class="section-subtitle">نقدم لكم مجموعة متكاملة من الخدمات لتصميم و إرسال و إدارة دعواتكم بشكل احترافي</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ticket-alt"></i>
+                    </div>
+                    <h3>بطاقات دخول مخصصة</h3>
+                    <p>بطاقة دخول لكل ضيف تحمل اسمه وباركود خاص به و يتعطل مباشرة بعد الإستخدام</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>إرسال الدعوات و إدارة الحضور</h3>
+                    <p>نظام متكامل لإرسال الدعوات وتذكير بالمناسبة و إدارة تأكيدات الحضور والإحصائيات مع تحديثات مباشرة</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>التحقق من بطاقات الدخول</h3>
+                    <p>مشرفين و مشرفات للتتحقق من الدعوات و منع أي تطفل على المناسبة</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>تأكيد الحضور</h3>
+                    <p>نظام سهل وفعال لتأكيد حضور المدعوين</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paper-plane"></i>
+                    </div>
+                    <h3>إرسال تلقائي</h3>
+                    <p>إرسال الدعوات والتذكير بشكل تلقائي</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>إحصائيات مباشرة</h3>
+                    <p>متابعة إحصائيات الحضور بشكل مباشر</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Try Service Section -->
+    <section id="try-service" class="try-service">
+        <div class="container">
+            <div class="try-service-content">
+                <h2>جرب الخدمة</h2>
+                <p>الدعوة بتوصل لك الآن</p>
+                <div class="demo-form">
+                    <div class="form-group">
+                        <input type="text" id="guest-name" placeholder="اسم الضيف" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="guest-phone" placeholder="رقم الجوال" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="event-name" placeholder="اسم المناسبة" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="datetime-local" id="event-date" required>
+                    </div>
+                    <button type="submit" class="btn-primary btn-large">تجربة إرسال دعوة وتذكير</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="packages">
+        <div class="container">
+            <h2 class="section-title">باقاتنا</h2>
+            <p class="section-subtitle">نقدم باقات تناسب تطلعاتكم</p>
+            
+            <div class="packages-grid">
+                <div class="package-card popular">
+                    <div class="package-badge">الأكثر طلباً</div>
+                    <h3>الباقة المميزة</h3>
+                    <p class="package-description">نشيل عنك دعوات ضيوفك من أ إلى ي وتذكيرهم بالمناسبة</p>
+                    
+                    <div class="package-features">
+                        <h4>الخدمات المقدمة</h4>
+                        <ul>
+                            <li>إرسال الدعوات لجميع الضيوف كصورة مع خاصية تأكيد الحضور</li>
+                            <li>إمكانية الإرسال الآلي في ثواني من رقم دعوة مناسبات</li>
+                            <li>إرسال تذكير + مكان المناسبة للمؤكدين</li>
+                            <li>إمكانية الإرسال بشكل مباشر من رقم العميل</li>
+                            <li>بطاقة دخول لكل ضيفة بالإسم وباركود خاص</li>
+                            <li>إمكانية إضافة أكثر من ضيفة في البطاقة الواحدة</li>
+                            <li>دعوات تعويضية مجانية عن المعتذرين</li>
+                            <li>مشرفة للتحقق من باركود بطاقة الدخول</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="package-stats">
+                        <h4>متابعة الإحصائيات</h4>
+                        <ul>
+                            <li>عدد الحضور الحالي في القاعة (تحديث مباشر)</li>
+                            <li>عدد المؤكدين والمعتذرين للحضور</li>
+                            <li>متابعة حالات الإرسال وعدد مرات فتح الدعوة</li>
+                            <li>تقرير مجاني بالحضور عند الطلب</li>
+                        </ul>
+                    </div>
+                    
+                    <a href="#contact" class="btn-primary">للسعر والطلب</a>
+                </div>
+                
+                <div class="package-card">
+                    <h3>الباقة الإحترافية</h3>
+                    <p class="package-description">تميز بدعوة فديو إحترافية في ليلة العمر او اي مناسبة لك</p>
+                    
+                    <div class="package-features">
+                        <h4>الخدمات المقدمة</h4>
+                        <ul>
+                            <li>إرسال الدعوات لجميع الضيوف كفديو مع خاصية تأكيد الحضور</li>
+                            <li>إمكانية الإرسال الآلي في ثواني من رقم دعوة مناسبات</li>
+                            <li>إرسال تذكير + مكان المناسبة للمؤكدين</li>
+                            <li>إمكانية الإرسال بشكل مباشر من رقم العميل</li>
+                            <li>بطاقة دخول لكل ضيفة بالإسم وباركود خاص</li>
+                            <li>إمكانية إضافة أكثر من ضيفة في البطاقة الواحدة</li>
+                            <li>دعوات تعويضية مجانية عن المعتذرين</li>
+                            <li>مشرفة للتحقق من باركود بطاقة الدخول</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="package-stats">
+                        <h4>متابعة الإحصائيات</h4>
+                        <ul>
+                            <li>عدد الحضور الحالي في القاعة (تحديث مباشر)</li>
+                            <li>عدد المؤكدين والمعتذرين للحضور</li>
+                            <li>متابعة حالات الإرسال وعدد مرات فتح الدعوة</li>
+                            <li>تقرير مجاني بالحضور عند الطلب</li>
+                        </ul>
+                    </div>
+                    
+                    <a href="#contact" class="btn-primary">للسعر والطلب</a>
+                </div>
+                
+                <div class="package-card">
+                    <h3>باقة الأعمال</h3>
+                    <p class="package-description">تميز بتوفير نظام إرسال دعوات وتأكيد حضور لعملائك</p>
+                    
+                    <div class="package-features">
+                        <h4>الخدمات المقدمة</h4>
+                        <ul>
+                            <li>شامل جميع مميزات وخدمات الباقات</li>
+                            <li>تخصيص رقم واتس اب بإسم وشعار العميل</li>
+                            <li>تخصيص بطاقة الدخول بإسم وشعار العميل</li>
+                            <li>تخصيص رسالة الواتس اب حسب الطلب</li>
+                            <li>قابلية تخصيص الخدمة حسب الطلب</li>
+                        </ul>
+                    </div>
+                    
+                    <a href="#contact" class="btn-primary">تواصل معنا</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">الأسئلة الشائعة</h2>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>كيف يمكنني الطلب؟</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>من خلال التواصل معنا عبر الواتس اب وإبلاغنا بالباقة المختارة وتفاصيل المناسبة واترك الباقي علينا.</p>
+                        <p>إضغط رقم الجوال للإنتقال للواتس اب والتواصل معنا: <strong>0570070792</strong></p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>كم يستغرق منكم لتنفيذ طلبي؟</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>يعتمد على حجم الطلب. و بإمكانك جعل طلبك مستعجل بدون مقابل إضافي و سنعمل خارج اوقات العمل لإنهاء طلبك في اسرع وقت.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>الساعة كم يحضر المشرف او المشرفة للتحقق من بطاقات الدخول؟</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>يتواجد المشرفون للتحقق من بطاقات الدخول بشكل إفتراضي من الساعة ٨ م إلى الساعة ١ ص. الوقت قابل للتعديل عند إبلاغ الدعم الفني لدعوة مناسبات.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">تواصل معنا</h2>
+            <p class="section-subtitle">تواصل معنا عبر الواتس اب 0570070792 في حال عدد الدعوات اكثر من ١٠٠٠ دعوة لتقديم عرض سعر</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h3>واتس اب</h3>
+                            <p>0570070792</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>اتصل بنا</h3>
+                            <p>0570070792</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>البريد الإلكتروني</h3>
+                            <p>info@munasbatsa.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="الاسم الكامل" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="رقم الجوال" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="البريد الإلكتروني" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="package" required>
+                                <option value="">اختر الباقة</option>
+                                <option value="premium">الباقة المميزة</option>
+                                <option value="professional">الباقة الإحترافية</option>
+                                <option value="business">باقة الأعمال</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="رسالتك" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary btn-large">إرسال الرسالة</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>مناسبات</h3>
+                    <p>خدمة تصميم و إرسال و إدارة الدعوات الإلكترونية</p>
+                </div>
+                <div class="footer-section">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="#services">خدماتنا</a></li>
+                        <li><a href="#packages">الباقات</a></li>
+                        <li><a href="#contact">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>طرق الدفع</h3>
+                    <div class="payment-methods">
+                        <i class="fab fa-apple-pay"></i>
+                        <i class="fas fa-credit-card"></i>
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 مناسبات. جميع الحقوق محفوظة</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
